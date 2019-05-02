@@ -1,0 +1,13 @@
+# dependancies
+node_modules
+storybook-static
+
+# coverage
+coverage
+
+# production
+build
+dist
+lib
+
+.vscode

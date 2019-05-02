@@ -1,0 +1,1777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderEntryPanel renders the Component correctly 1`] = `
+<div
+  className=" css-86fc2p"
+>
+  <div
+    className="css-1x5sd3c"
+  >
+    <div
+      className="ant-page-header  css-1l6stgg"
+    >
+      <div
+        className="ant-page-header-title-view"
+      >
+        <span
+          className="ant-page-header-title-view-title"
+        >
+          Create new order
+        </span>
+        <span
+          className="ant-page-header-title-view-extra"
+        >
+          <h4
+            className="css-1u98n6u"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="css-7qr0w7"
+    >
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Action"
+            >
+              Action
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className=" css-g5l8zd ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="Buy"
+                      >
+                        Buy
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Symbol"
+            >
+              Symbol
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled ant-select-allow-clear"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    role="combobox"
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection__placeholder"
+                        onClick={[Function]}
+                        onMouseDown={[Function]}
+                        style={
+                          Object {
+                            "WebkitUserSelect": "none",
+                            "display": "block",
+                            "userSelect": "none",
+                          }
+                        }
+                        unselectable="on"
+                      >
+                        Symbol/Company
+                      </div>
+                      <ul>
+                        <li
+                          className="ant-select-search ant-select-search--inline"
+                        >
+                          <div
+                            className="ant-select-search__field__wrap"
+                          >
+                            <input
+                              className="ant-input ant-select-search__field"
+                              disabled={false}
+                              onChange={[Function]}
+                              onKeyDown={[Function]}
+                              type="text"
+                              value=""
+                            />
+                            <span
+                              className="ant-select-search__field__mirror"
+                            >
+                              
+                               
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Qty"
+            >
+              Qty
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={true}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemax={999}
+                    aria-valuemin={1}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      max={999}
+                      min={1}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={1}
+                      value="1"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Price"
+            >
+              Price
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={false}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemin={0.01}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      min={0.01}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={0.01}
+                      value="1.00"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Order Type"
+            >
+              Order Type
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="css-1o2ogah ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="Market"
+                      >
+                        Market
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="TIF"
+            >
+              TIF
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="css-1o2ogah ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="GTC"
+                      >
+                        GTC
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Stop Price"
+            >
+              Stop Price
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={false}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemin={0.01}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      min={0.01}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={0.01}
+                      value="1.00"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <textarea
+          className="ant-input"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Comment"
+          rows={4}
+          style={Object {}}
+          value=""
+        />
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className=" css-1yqnfd"
+        >
+          <button
+            className="ant-btn ant-btn-primary"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderEntryPanel renders the Component correctly with error message 1`] = `
+<div
+  className=" css-86fc2p"
+>
+  <div
+    className="css-1x5sd3c"
+  >
+    <div
+      className="ant-page-header  css-1l6stgg"
+    >
+      <div
+        className="ant-page-header-title-view"
+      >
+        <span
+          className="ant-page-header-title-view-title"
+        >
+          Create new order
+        </span>
+        <span
+          className="ant-page-header-title-view-extra"
+        >
+          <h4
+            className="css-1u98n6u"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="css-7qr0w7"
+    >
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Action"
+            >
+              Action
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className=" css-g5l8zd ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="Buy"
+                      >
+                        Buy
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Symbol"
+            >
+              Symbol
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled ant-select-allow-clear"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    role="combobox"
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection__placeholder"
+                        onClick={[Function]}
+                        onMouseDown={[Function]}
+                        style={
+                          Object {
+                            "WebkitUserSelect": "none",
+                            "display": "block",
+                            "userSelect": "none",
+                          }
+                        }
+                        unselectable="on"
+                      >
+                        Symbol/Company
+                      </div>
+                      <ul>
+                        <li
+                          className="ant-select-search ant-select-search--inline"
+                        >
+                          <div
+                            className="ant-select-search__field__wrap"
+                          >
+                            <input
+                              className="ant-input ant-select-search__field"
+                              disabled={false}
+                              onChange={[Function]}
+                              onKeyDown={[Function]}
+                              type="text"
+                              value=""
+                            />
+                            <span
+                              className="ant-select-search__field__mirror"
+                            >
+                              
+                               
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Qty"
+            >
+              Qty
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={true}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemax={999}
+                    aria-valuemin={1}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      max={999}
+                      min={1}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={1}
+                      value="1"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Price"
+            >
+              Price
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={false}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemin={0.01}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      min={0.01}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={0.01}
+                      value="1.00"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Order Type"
+            >
+              Order Type
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="css-1o2ogah ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="Market"
+                      >
+                        Market
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="TIF"
+            >
+              TIF
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="css-1o2ogah ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-controls="test-uuid"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    >
+                      <div
+                        className="ant-select-selection-selected-value"
+                        style={
+                          Object {
+                            "display": "block",
+                            "opacity": 1,
+                          }
+                        }
+                        title="GTC"
+                      >
+                        GTC
+                      </div>
+                    </div>
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-select-arrow-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-col ant-form-item-label"
+          >
+            <label
+              className=""
+              htmlFor={null}
+              onClick={[Function]}
+              title="Stop Price"
+            >
+              Stop Price
+            </label>
+          </div>
+          <div
+            className="ant-col ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-input-number"
+                  style={Object {}}
+                >
+                  <div
+                    className="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled={false}
+                      aria-label="Increase Value"
+                      className="ant-input-number-handler ant-input-number-handler-up "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: up"
+                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 0 0 140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                    <span
+                      aria-disabled={false}
+                      aria-label="Decrease Value"
+                      className="ant-input-number-handler ant-input-number-handler-down "
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="button"
+                      unselectable="unselectable"
+                    >
+                      <i
+                        aria-label="icon: down"
+                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className=""
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </i>
+                    </span>
+                  </div>
+                  <div
+                    aria-valuemin={0.01}
+                    aria-valuenow={1}
+                    className="ant-input-number-input-wrap"
+                    role="spinbutton"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="ant-input-number-input"
+                      min={0.01}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseUp={[Function]}
+                      required={false}
+                      step={0.01}
+                      value="1.00"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <textarea
+          className="ant-input"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Comment"
+          rows={4}
+          style={Object {}}
+          value=""
+        />
+      </div>
+      <div
+        className="css-htso69"
+      >
+        <div
+          className="css-yp9swi"
+        />
+        <div
+          className=" css-1yqnfd"
+        >
+          <button
+            className="ant-btn ant-btn-primary"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <span>
+              Submit
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        className=" css-idefdn"
+        style={
+          Object {
+            "opacity": 0,
+            "transform": "translate(0, 30px)",
+          }
+        }
+      >
+        <h2
+          className="css-n482ir"
+        >
+          There was an error
+        </h2>
+        <button
+          className="ant-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          <span>
+            Okay
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

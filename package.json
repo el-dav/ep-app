@@ -3,20 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
     "@types/jest": "24.0.12",
     "@types/node": "11.13.8",
     "@types/react": "16.8.15",
     "@types/react-dom": "16.8.4",
+    "ag-grid-community": "^20.2.0",
+    "ag-grid-react": "^20.2.0",
+    "antd": "^3.16.6",
+    "emotion-theming": "^10.0.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
     "react-scripts": "3.0.0",
-    "typescript": "3.4.5"
+    "react-split-pane": "^0.1.87",
+    "react-spring": "^8.0.19",
+    "redux": "^4.0.1",
+    "redux-observable": "^1.1.0",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.5.1",
+    "typesafe-actions": "^4.2.0",
+    "typescript": "3.4.5",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +50,39 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!/node_modules/",
+      "!src/index.js",
+      "!src/**/*.story.{ts,tsx}",
+      "!src/registerWorker.ts"
+    ],
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "@types/react-redux": "^7.0.8",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/storybook__addon-actions": "^3.4.2",
+    "@types/storybook__addon-knobs": "^5.0.0",
+    "@types/storybook__react": "^4.0.1",
+    "@types/uuid": "^3.4.4",
+    "babel-loader": "^8.0.5",
+    "husky": "^2.1.0",
+    "prettier": "^1.17.0",
+    "react-test-renderer": "^16.8.6",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0"
   }
 }

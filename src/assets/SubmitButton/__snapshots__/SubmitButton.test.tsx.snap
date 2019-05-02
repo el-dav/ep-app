@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton renders the Component correctly 1`] = `
+<div
+  className=" css-1yqnfd"
+>
+  <button
+    className="ant-btn ant-btn-primary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      Submit
+    </span>
+  </button>
+</div>
+`;
+
+exports[`SubmitButton renders the Component correctly while disabled 1`] = `
+<div
+  className=" css-1yqnfd"
+>
+  <button
+    className="ant-btn ant-btn-primary"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      Submit
+    </span>
+  </button>
+</div>
+`;
+
+exports[`SubmitButton renders the Component correctly while submitting 1`] = `
+<div
+  className=" css-1yqnfd"
+>
+  <button
+    className="ant-btn ant-btn-primary"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  />
+  <div
+    className="ant-spin ant-spin-spinning css-8mo0vc"
+  >
+    <span
+      className="ant-spin-dot ant-spin-dot-spin"
+    >
+      <i
+        className="ant-spin-dot-item"
+      />
+      <i
+        className="ant-spin-dot-item"
+      />
+      <i
+        className="ant-spin-dot-item"
+      />
+      <i
+        className="ant-spin-dot-item"
+      />
+    </span>
+  </div>
+</div>
+`;

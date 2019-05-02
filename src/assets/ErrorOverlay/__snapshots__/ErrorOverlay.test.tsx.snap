@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorOverlay renders the Component correctly 1`] = `null`;
+
+exports[`ErrorOverlay renders the Component correctly when shown 1`] = `
+<div
+  className=" css-idefdn"
+  style={
+    Object {
+      "opacity": 0,
+      "transform": "translate(0, 30px)",
+    }
+  }
+>
+  <h2
+    className="css-n482ir"
+  >
+    message
+  </h2>
+  <button
+    className="ant-btn"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      Okay
+    </span>
+  </button>
+</div>
+`;

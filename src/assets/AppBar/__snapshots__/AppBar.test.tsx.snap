@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar renders the Component correctly 1`] = `
+<div
+  className="ant-page-header  css-199n3lt"
+>
+  <div
+    className="ant-page-header-title-view"
+  >
+    <span
+      className="ant-page-header-title-view-title"
+    >
+      Title
+    </span>
+    <span
+      className="ant-page-header-title-view-extra"
+    >
+      <h4
+        className="css-1u98n6u"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AppBar renders the Component correctly with a different AppBarType 1`] = `
+<div
+  className="ant-page-header  css-1l6stgg"
+>
+  <div
+    className="ant-page-header-title-view"
+  >
+    <span
+      className="ant-page-header-title-view-title"
+    >
+      Title
+    </span>
+    <span
+      className="ant-page-header-title-view-extra"
+    >
+      <h4
+        className="css-1u98n6u"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AppBar renders the Component correctly with extra text 1`] = `
+<div
+  className="ant-page-header  css-199n3lt"
+>
+  <div
+    className="ant-page-header-title-view"
+  >
+    <span
+      className="ant-page-header-title-view-title"
+    >
+      Title
+    </span>
+    <span
+      className="ant-page-header-title-view-extra"
+    >
+      <h4
+        className="css-1u98n6u"
+      >
+        Extra text
+      </h4>
+    </span>
+  </div>
+</div>
+`;
