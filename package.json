@@ -3,12 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^10.0.10",
-    "@emotion/styled": "^10.0.10",
-    "@types/jest": "24.0.12",
-    "@types/node": "11.13.8",
-    "@types/react": "16.8.15",
-    "@types/react-dom": "16.8.4",
     "ag-grid-community": "^20.2.0",
     "ag-grid-react": "^20.2.0",
     "antd": "^3.16.6",
@@ -25,7 +19,9 @@
     "rxjs": "^6.5.1",
     "typesafe-actions": "^4.2.0",
     "typescript": "3.4.5",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,7 +30,7 @@
     "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build:storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -76,6 +72,10 @@
     "@types/storybook__addon-knobs": "^5.0.0",
     "@types/storybook__react": "^4.0.1",
     "@types/uuid": "^3.4.4",
+    "@types/jest": "24.0.12",
+    "@types/node": "11.13.8",
+    "@types/react": "16.8.15",
+    "@types/react-dom": "16.8.4",
     "babel-loader": "^8.0.5",
     "husky": "^2.1.0",
     "prettier": "^1.17.0",
@@ -84,5 +84,10 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "tslint-react": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "yarn"
+    }
   }
 }

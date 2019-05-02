@@ -1,44 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EXD Trader Exercise
 
-## Available Scripts
+This project fulfills all the requirements set out in the exercise documents with some interesting additions e.g. Typescript, Redux Observable, Marble Tests, Storybook, Emotion for styling eand theming and many other small details
 
-In the project directory, you can run:
+### Getting Started (scripts)
 
-### `npm start`
+- Install node modules:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  `npm install` or `yarn`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- Run the application:
 
-### `npm test`
+  `npm start` or `yarn start`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- To build the application for serving and deploying:
 
-### `npm run build`
+  `npm run build` or `yarn build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To run the tests for the application:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  `npm run test` or `yarn test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- You can also get the unit test coverage which will generate html assests in a /coverage folder:
 
-### `npm run eject`
+  `npm run test:coverage` or `yarn test:coverage`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- To view a storybook catelogue of all the app components (including interactive knobs to dynamically change props):
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  `npm run storybook` or `yarn storybook`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- You can also generate a static site version of the storybook for sharing with designers/stakeholders:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  `npm run build:storybook` or `yarn build:storybook`
 
-## Learn More
+### Architecture & Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- The application is built entirely in [Typescript](https://www.typescriptlang.org/) for the benefits of type-checking, documentation and autocompletion. For the most part this went smoothly but there were a few type mis-matches when used in conjunction with the antd library so `any` type has been used on a few occasions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- Side-effects were handles using [Redux Observable](https://redux-observable.js.org/) epics.
+
+- [Reselect](https://github.com/reduxjs/reselect) was used to efficiently retrieve and manipulate data from the store. This is important in redux applications for avoiding redundant processing and re-renders.
+
+- Testing was implemented using [Jest](https://jestjs.io/en/) through a combination of standard unit testing, snapshot testing and marble testing (for complex epic logic). Although test coverage is a flawed metric there is 100% unit coverage on the redux portion of the application (/store). Most of the components also have 100% unit test coverage through snapshotting various scenarios.
+
+- [Storybook](https://storybook.js.org/) was used to develop each major component in isolation, using the action & knobs addons to dynamically change the input props. The end result are robust stand-alone components and a catalogue for the application which is a valuable resource for sharing with stakeholders and the wider team.
+
+- [Tslint](https://palantir.github.io/tslint/) was used for linting.
+
+- [Prettier](https://prettier.io/docs/en/cli.html) was used for code formatting.
+
+- [Emotion](https://emotion.sh/docs/introduction) was used for themeing and styling. For the most part this worked well although it did not always play nicely with the Antd library so a few style overrides were a little bit hacky.
+
+- [react-split-pane](https://github.com/tomkp/react-split-pane) was used to create the draggable component. On a previous project I have created my own component to do this but didn't have time for this project.
+
+- As requested [Antd](https://ant.design/) widgets were used for the form controls and [ag-grid](https://www.ag-grid.com/) was used for the blotter
+
+### Interesting Details
+
+- The Symbol autocomplete will match a search for either the Symbol or the full company name.
+
+- Use of [react-spring](https://www.react-spring.io/) to animate the error popup
+
+- Use of [marble testing](https://rxjs.dev/guide/testing/marble-testing) to ensure that the `CREATE_ORDER` action fires after 2 seconds and triggers an error `SET_NEW_ORDER_STATUS` action every 10th submit
+
+- Use of baseUrl to allow absolute imports in typescript (new in [create-react-app v3.0.0](https://github.com/facebook/create-react-app/releases/tag/v3.0.0)). To allow `import { Component } from assets` instead of `import { Component } from '../../../assets`
+
+  My general philosophy with absolute paths is to use `./` to import direct children and use absolute imports over `../`. This means that each folder/component is self-encapsulated and can be moved with minimal updates to references.
+
+### Issues
+
+- Antd suggests that for production you would need to [eject from create-react-app or switch to react-app-rewired](https://ant.design/docs/react/use-with-create-react-app) to avoid loading all the library styles. I didn't get around to implementing this and feel that a component libaray should require you to change your build process.
+
+- Related to use of Antd there are a couple of workaround for overwriting styles and getting typescript to align with some of the Antd compoenents.
+
+### Next steps
+
+- With more time I would have implemented end-to-end tests using a framework such as Cypress

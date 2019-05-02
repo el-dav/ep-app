@@ -320,12 +320,16 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                       </i>
                     </span>
                     <span
-                      aria-disabled={true}
+                      aria-disabled={false}
                       aria-label="Decrease Value"
-                      className="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+                      className="ant-input-number-handler ant-input-number-handler-down "
                       onMouseDown={[Function]}
                       onMouseLeave={[Function]}
                       onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
                       role="button"
                       unselectable="unselectable"
                     >
@@ -353,7 +357,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                   <div
                     aria-valuemax={999}
                     aria-valuemin={1}
-                    aria-valuenow={1}
+                    aria-valuenow={100}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -370,7 +374,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                       onMouseUp={[Function]}
                       required={false}
                       step={1}
-                      value="1"
+                      value="100"
                     />
                   </div>
                 </div>
@@ -483,7 +487,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                   </div>
                   <div
                     aria-valuemin={0.01}
-                    aria-valuenow={1}
+                    aria-valuenow={90}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -499,7 +503,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                       onMouseUp={[Function]}
                       required={false}
                       step={0.01}
-                      value="1.00"
+                      value="90.00"
                     />
                   </div>
                 </div>
@@ -812,7 +816,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                   </div>
                   <div
                     aria-valuemin={0.01}
-                    aria-valuenow={1}
+                    aria-valuenow={100}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -828,7 +832,7 @@ exports[`OrderEntryPanel renders the Component correctly 1`] = `
                       onMouseUp={[Function]}
                       required={false}
                       step={0.01}
-                      value="1.00"
+                      value="100.00"
                     />
                   </div>
                 </div>
@@ -1196,12 +1200,16 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                       </i>
                     </span>
                     <span
-                      aria-disabled={true}
+                      aria-disabled={false}
                       aria-label="Decrease Value"
-                      className="ant-input-number-handler ant-input-number-handler-down ant-input-number-handler-down-disabled"
+                      className="ant-input-number-handler ant-input-number-handler-down "
                       onMouseDown={[Function]}
                       onMouseLeave={[Function]}
                       onMouseUp={[Function]}
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
                       role="button"
                       unselectable="unselectable"
                     >
@@ -1229,7 +1237,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                   <div
                     aria-valuemax={999}
                     aria-valuemin={1}
-                    aria-valuenow={1}
+                    aria-valuenow={100}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -1246,7 +1254,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                       onMouseUp={[Function]}
                       required={false}
                       step={1}
-                      value="1"
+                      value="100"
                     />
                   </div>
                 </div>
@@ -1359,7 +1367,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                   </div>
                   <div
                     aria-valuemin={0.01}
-                    aria-valuenow={1}
+                    aria-valuenow={90}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -1375,7 +1383,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                       onMouseUp={[Function]}
                       required={false}
                       step={0.01}
-                      value="1.00"
+                      value="90.00"
                     />
                   </div>
                 </div>
@@ -1688,7 +1696,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                   </div>
                   <div
                     aria-valuemin={0.01}
-                    aria-valuenow={1}
+                    aria-valuenow={100}
                     className="ant-input-number-input-wrap"
                     role="spinbutton"
                   >
@@ -1704,7 +1712,7 @@ exports[`OrderEntryPanel renders the Component correctly with error message 1`] 
                       onMouseUp={[Function]}
                       required={false}
                       step={0.01}
-                      value="1.00"
+                      value="100.00"
                     />
                   </div>
                 </div>

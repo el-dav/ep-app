@@ -93,6 +93,7 @@ const SymbolSelect: FC<Props> = ({ className, onSelect, value }) => {
           } else {
             setValidationError(true);
             setSearchtext('');
+            onSelect(undefined);
           }
         }}
         allowClear

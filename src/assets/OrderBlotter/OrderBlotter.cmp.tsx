@@ -12,11 +12,11 @@ const Container = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
-  .buy-row {
+  .buy-cell {
     background-color: ${({ theme }) => theme.palette.buy.faded};
     color: ${({ theme }) => theme.palette.buy.contrastText};
   }
-  .sell-row {
+  .sell-cell {
     background-color: ${({ theme }) => theme.palette.sell.faded};
     color: ${({ theme }) => theme.palette.sell.contrastText};
   }
@@ -34,11 +34,19 @@ const defaultColDef: ColDef = {
   suppressSizeToFit: true
 };
 
+type CellParams = {
+  value: TradeType;
+};
+
 const columnDefs: OrderColDef[] = [
   {
     headerName: 'Action',
     field: 'tradeType',
-    width: 50
+    width: 50,
+    cellClassRules: {
+      'buy-cell': ({ value }: CellParams) => value === TradeType.BUY,
+      'sell-cell': ({ value }: CellParams) => value === TradeType.SELL
+    }
   },
   {
     headerName: 'Symbol',
@@ -104,10 +112,6 @@ const OrderBlotter: FC<Props> = ({ className, orders }) => {
           setTimeout(() => {
             api.sizeColumnsToFit();
           }, 0);
-        }}
-        rowClassRules={{
-          'buy-row': params => params.data.tradeType === TradeType.BUY,
-          'sell-row': params => params.data.tradeType === TradeType.SELL
         }}
       />
     </Container>
